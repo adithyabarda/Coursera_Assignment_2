@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+#head{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#chick{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+#bee{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+#sus{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.nav-item a{
+    text-decoration: none;
+    margin-left: 10px;
+    color:  white;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: black;
+}
+#nav-list{
+    margin-top: 10px;
+}
+@media (min-width: 1200px) {
+    #sec1{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec2{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec3{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .nav-item li a{
+        margin-left: 60px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #sec1{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec2{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec3{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #sec1{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec2{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+    }
+    #sec3{
+        background-color: grey;
+        height: 700px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    #sec1{
+        background-color: grey;
+        height: 450px;
+        margin-top: 40px;
+    }
+    #sec2{
+        background-color: grey;
+        height: 450px;
+        margin-top: 40px;
+    }
+    #sec3{
+        background-color: grey;
+        height: 450px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .nav-item a{
+        text-align: center;
+    }
+
+}
